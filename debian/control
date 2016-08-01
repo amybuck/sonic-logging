@@ -1,0 +1,26 @@
+Source: sonic-logging
+Section: net
+Priority: optional
+Maintainer: Dell <support@dell.com>
+Build-Depends:
+ debhelper (>= 9), dh-autoreconf, libxml2-dev, exuberant-ctags, python-support,
+ python
+Standards-Version: 3.9.3
+
+Package: sonic-logging
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: SONiC logging - logging utilies
+
+Package: libsonic-logging1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: SONiC logging - shared library
+
+Package: libsonic-logging-dev
+Section: libdevel
+Architecture: any
+Depends:
+ ${shlibs:Depends}, ${misc:Depends}, libsonic-logging1 (= ${binary:Version})
+Description: SONiC logging - development files
+
