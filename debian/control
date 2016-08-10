@@ -6,6 +6,8 @@ Build-Depends:
  debhelper (>= 9), dh-autoreconf, libxml2-dev, exuberant-ctags, python-support,
  python
 Standards-Version: 3.9.3
+Vcs-Browser: https://github.com/Azure/sonic-logging
+Vcs-Git: https://github.com/Azure/sonic-logging.git
 
 Package: sonic-logging
 Architecture: any
