@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.69])
 AC_INIT([sonic-logging],[1.0.1])
-AM_INIT_AUTOMAKE([subdir-objects])
+AM_INIT_AUTOMAKE([foreign subdir-objects])
 AC_CONFIG_SRCDIR([src])
 AC_CHECK_HEADERS([libxml/parser.h])
 
