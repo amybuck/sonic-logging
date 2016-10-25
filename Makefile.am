@@ -1,3 +1,4 @@
+ACLOCAL_AMFLAGS=-I m4
 
 #Script files
 bin_SCRIPTS = src/sonic_logging_cli
