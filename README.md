@@ -14,7 +14,6 @@ See [sonic-nas-manifest](https://github.com/Azure/sonic-nas-manifest) for comple
 ### Build dependencies
 None
 
-### Build command
-    sonic_build  -- clean binary
+BUILD CMD: `sonic_build  -- clean binary`
 
 (c) Dell 2016
